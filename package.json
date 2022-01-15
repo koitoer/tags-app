@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-server": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/koitoer/tags-app/issues"
   },
-  "homepage": "https://github.com/koitoer/tags-app#readme"
+  "homepage": "https://github.com/koitoer/tags-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "live-server": "^1.2.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
 }
